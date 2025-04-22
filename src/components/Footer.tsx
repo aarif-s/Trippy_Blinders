@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
 
         {/* Google Map */}
-        <div className="mt-10 sm:mt-12">
+        {/* <div className="mt-10 sm:mt-12">
           <h3 className="text-base sm:text-lg font-semibold text-center mb-3">Find Us on Google Maps</h3>
           <div className="w-full h-48 sm:h-56 rounded-lg overflow-hidden shadow-lg">
             <iframe
@@ -93,7 +93,7 @@ const Footer = () => {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-        </div>
+        </div> */}
 
         {/* Footer Bottom */}
         <div className="mt-6 sm:mt-8 pt-6 border-t border-white/20">

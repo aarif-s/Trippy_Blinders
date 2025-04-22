@@ -1,11 +1,13 @@
-import React from 'react'
+ 
 import { Link } from 'react-router-dom'
+import assets from '../assets/assets'
+
 
 const trips = [
   {
     id: 1,
-    title: 'Delhi to Leh Motorcycle Tour',
-    image: 'https://images.unsplash.com/photo-1701599347330-f01207c56ca5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: 'Andman Islands Trip',
+    image: assets.DomesticTrip_pic1,
     duration: '9 days, 8 nights',
     price: '₹12,999',
     originalPrice: '₹15,999',
@@ -13,9 +15,8 @@ const trips = [
   },
   {
     id: 2,
-    title: 'Manali Adventure Trip',
-    image:
-      'https://himdarshantrip.com/wp-content/uploads/elementor/thumbs/Kullu-Manali-Honeymoon-q5qcpujxwcxywxzevew87uvdizh2zk87icp4xjtzow.jpg',
+    title: 'Delhi Trip',
+    image: assets.DomesticTrip_pic2,
     duration: '6 days, 5 nights',
     price: '₹18,499',
     originalPrice: '₹21,999',
@@ -24,8 +25,8 @@ const trips = [
   },
   {
     id: 3,
-    title: 'Kashmir Backpacking',
-    image: 'https://images.unsplash.com/photo-1584732200355-486a95263014?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: 'Hampta pass',
+    image: assets.DomesticTrip_pic4,
     duration: '6 days, 5 nights',
     price: '₹19,999',
     originalPrice: '₹24,999',
@@ -34,56 +35,210 @@ const trips = [
   },
   {
     id: 4,
-    title: 'Leh-Ladakh Road Trip',
-    image: 'https://cdn.audleytravel.com/-/-/79/1016845-leh-monastry-ladakh-india.jpg',
+    title: 'Jaipur',
+    image: assets.DomesticTrip_pic5,
     duration: '9 days, 8 nights',
     price: '₹29,999',
     originalPrice: '₹34,999',
     
-    link: '/domestic/LehLadakh_trip',
+    link: '/domestic/jaisalmer_jodpur_trip',
   },
   {
     id: 5,
-    title: 'Goa Beach Vacation',
-    image: 'https://www.holidify.com/images/bgImages/GOA.jpg',
+    title: 'Jaisalmer',
+    image: assets.DomesticTrip_pic6,
     duration: '5 days, 4 nights',
     price: '₹15,999',
     originalPrice: '₹19,999',
  
-    link: '/domestic/Goa_trip',
+    link: '/domestic/jaisalmer_jodpur_trip',
   },
   {
     id: 6,
-    title: 'Kerala Tour',
-    image:
-      'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: 'Kashmir',
+    image: assets.DomesticTrip_pic7,
     duration: '8 days, 7 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
     
-    link: '/domestic/Kerala_trip',
+    link: ' /domestic/Kashmir_trip',
   },                                       
   {
     id: 7,
-    title: 'Golden Triangle',
-    image:
-      'https://images.pexels.com/photos/3881106/pexels-photo-3881106.jpeg',
+    title: 'Manali',
+    image: assets.DomesticTrip_pic8,
     duration: '7 days, 6 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/golden_triangle_trip',
+    link: '/domestic/Manali_trip',
+
   },
   {
     id: 8,
-    title: 'Jaisalmer Jodpur Trip',
-    image:
-      'https://images.unsplash.com/photo-1577089907583-991f1ba4a03c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: 'North-East India',
+    image: assets.DomesticTrip_pic9,
     duration: '4 days, 3 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
     link: '/domestic/jaisalmer_jodpur_trip',
   },
-
+  {
+    id: 9,
+    title: 'Sonmarg',
+    image: assets.DomesticTrip_pic10,
+    duration: '4 days, 3 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/rishikesh_yatra',
+  },
+  {
+    id: 10,
+    title: 'Taj mahal',
+    image: assets.DomesticTrip_pic11,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/sikkim_adventure',
+  },
+  {
+    id: 11,
+    title: 'banaras',
+    image: assets.DomesticTrip_pic12,
+    duration: '4 days, 3 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/udaipur_adventure',
+  },
+  {
+    id: 12,
+    title: 'bir billing',
+    image: assets.DomesticTrip_pic13,
+    duration: '4 days, 3 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/varanasi_adventure',
+  },
+  {
+    id: 13,
+    title: 'bodhgaya',
+    image: assets.DomesticTrip_pic14,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Andaman_trip',
+  },
+  {
+    id: 14,
+    title: 'dharamshala',
+    image: assets.DomesticTrip_pic15,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Darjeeling_trip',
+  },
+  {
+    id: 15,
+    title: 'jodhpur',
+    image: assets.DomesticTrip_pic16,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Dharamshala_trip',
+  }, 
+  
+  {
+    id: 16,
+    title: 'kerala',
+    image: assets.DomesticTrip_pic17,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Kerala_trip',
+  }, 
+  
+    {
+      id: 17,
+      title: 'ladakh',
+      image: assets.DomesticTrip_pic18,
+      duration: '6 days, 5 nights',
+      price: '₹23,999',
+      originalPrice: '₹28,999',
+      link: '/domestic/lehladakh_trip',
+    },  
+    {
+    id: 18,
+    title: 'lakshadweep',
+    image: assets.DomesticTrip_pic19,
+    duration: '5 days, 4 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Goa_trip',
+  },
+  {
+    id: 19,
+    title: 'meghalaya',
+    image: assets.DomesticTrip_pic20,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Kumarakom_trip',
+  },
+  {
+    id: 20,
+    title: 'mussoorie',
+    image: assets.DomesticTrip_pic21,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Kumarakom_trip',
+  },  
+  {
+    id: 21,
+    title: 'nainital',
+    image: assets.DomesticTrip_pic22,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Kumarakom_trip',
+  },
+  {
+    id: 22,
+    title: 'ooty',
+    image: assets.DomesticTrip_pic23,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Kumarakom_trip',
+  },
+  {
+    id: 23,
+    title: 'shimla',
+    image: assets.DomesticTrip_pic24,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/shimla_trip',
+  },
+  {
+    id: 24,
+    title: 'spiti',
+    image: assets.DomesticTrip_pic25,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Kumarakom_trip',
+  },  
+  {
+    id: 25,
+    title: 'udaipur',
+    image: assets.DomesticTrip_pic26,
+    duration: '6 days, 5 nights',
+    price: '₹23,999',
+    originalPrice: '₹28,999',
+    link: '/domestic/Kumarakom_trip',
+  },   
+  
+  
   
 ]
 
@@ -115,8 +270,8 @@ const DomesticTrips = () => {
           
                             {/* Card content */}
                             <div className="lg:p-2 sm:p-3 pt-0">
-                              <h3 className="lg:text-xl sm:text-sm font-semibold px-2 mb-2">{trip.title}</h3>
-                              <div className="flex items-baseline mb-1">
+                              <h3 className="lg:text-xl sm:text-sm font-semibold px-2 mb-1">{trip.title}</h3>
+                              <div className="flex items-baseline mb-1 lg:mb-0">
                                 <span className="lg:text-2xl  sm:text-base px-1 font-bold text-blue-500">
                                   {trip.price}
                                 </span>

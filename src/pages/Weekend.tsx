@@ -44,8 +44,8 @@ const Weekend = () => {
 
         {/* Responsive Grid for Cards */}
         <div>
-           <DomesticTrips />
-           
+           {/* <DomesticTrips />
+            */}
         </div>
       </div>
     </div>
