@@ -1,17 +1,15 @@
- 
 import { Link } from 'react-router-dom'
 import assets from '../assets/assets'
-
 
 const trips = [
   {
     id: 1,
-    title: 'Andman Islands Trip',
+    title: 'Andman Islands',
     image: assets.DomesticTrip_pic1,
     duration: '9 days, 8 nights',
     price: '₹12,999',
     originalPrice: '₹15,999',
-    link: '/domestic/delhi_to_leh_motorcycle_trip',
+    link: '/domestic/Andaman_island_trip',
   },
   {
     id: 2,
@@ -20,8 +18,7 @@ const trips = [
     duration: '6 days, 5 nights',
     price: '₹18,499',
     originalPrice: '₹21,999',
-    
-    link: '/domestic/Manali_trip',
+    link: '/domestic/Delhi_trip',
   },
   {
     id: 3,
@@ -31,7 +28,7 @@ const trips = [
     price: '₹19,999',
     originalPrice: '₹24,999',
     
-    link: '/domestic/Kashmir_trip',
+    link: '/domestic/Hapmta_pass_trip',
   },
   {
     id: 4,
@@ -41,7 +38,7 @@ const trips = [
     price: '₹29,999',
     originalPrice: '₹34,999',
     
-    link: '/domestic/jaisalmer_jodpur_trip',
+    link: '/domestic/Jaipur_trip',
   },
   {
     id: 5,
@@ -51,7 +48,7 @@ const trips = [
     price: '₹15,999',
     originalPrice: '₹19,999',
  
-    link: '/domestic/jaisalmer_jodpur_trip',
+    link: '/domestic/Jaisalmer_trip',
   },
   {
     id: 6,
@@ -61,7 +58,7 @@ const trips = [
     price: '₹23,999',
     originalPrice: '₹28,999',
     
-    link: ' /domestic/Kashmir_trip',
+    link: '/domestic/Kashmir_trip',
   },                                       
   {
     id: 7,
@@ -80,7 +77,7 @@ const trips = [
     duration: '4 days, 3 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/jaisalmer_jodpur_trip',
+    link: '/domestic/north_east_india',
   },
   {
     id: 9,
@@ -89,7 +86,7 @@ const trips = [
     duration: '4 days, 3 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/rishikesh_yatra',
+    link: '/domestic/sonmarg_trip',
   },
   {
     id: 10,
@@ -98,57 +95,57 @@ const trips = [
     duration: '6 days, 5 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/sikkim_adventure',
+    link: '/domestic/taj_mahal_trip',
   },
   {
     id: 11,
-    title: 'banaras',
+    title: 'Banaras',
     image: assets.DomesticTrip_pic12,
     duration: '4 days, 3 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/udaipur_adventure',
+    link: '/domestic/banaras_trip',
   },
   {
     id: 12,
-    title: 'bir billing',
+    title: 'Bir Billing',
     image: assets.DomesticTrip_pic13,
     duration: '4 days, 3 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/varanasi_adventure',
+    link: '/domestic/bir_billing_trip',
   },
   {
     id: 13,
-    title: 'bodhgaya',
+    title: 'Bodhgaya',
     image: assets.DomesticTrip_pic14,
-    duration: '6 days, 5 nights',
+    duration: '3 days, 2 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Andaman_trip',
+    link: '/domestic/bodhgaya_trip',
   },
   {
     id: 14,
-    title: 'dharamshala',
+    title: 'Dharamshala',
     image: assets.DomesticTrip_pic15,
-    duration: '6 days, 5 nights',
+    duration: '4 days, 3 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Darjeeling_trip',
+    link: '/domestic/dharamshala_trip',
   },
   {
     id: 15,
-    title: 'jodhpur',
+    title: 'Jodhpur',
     image: assets.DomesticTrip_pic16,
-    duration: '6 days, 5 nights',
+    duration: '3 days, 2 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Dharamshala_trip',
+    link: '/domestic/jodhpur_trip',
   }, 
   
   {
     id: 16,
-    title: 'kerala',
+    title: 'Kerala',
     image: assets.DomesticTrip_pic17,
     duration: '6 days, 5 nights',
     price: '₹23,999',
@@ -158,7 +155,7 @@ const trips = [
   
     {
       id: 17,
-      title: 'ladakh',
+      title: 'Ladakh',
       image: assets.DomesticTrip_pic18,
       duration: '6 days, 5 nights',
       price: '₹23,999',
@@ -167,52 +164,52 @@ const trips = [
     },  
     {
     id: 18,
-    title: 'lakshadweep',
+    title: 'Lakshadweep',
     image: assets.DomesticTrip_pic19,
     duration: '5 days, 4 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Goa_trip',
+    link: '/domestic/lakshadweep_trip',
   },
   {
     id: 19,
-    title: 'meghalaya',
+    title: 'Meghalaya',
     image: assets.DomesticTrip_pic20,
     duration: '6 days, 5 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Kumarakom_trip',
+    link: '/domestic/meghalaya_trip',
   },
   {
     id: 20,
-    title: 'mussoorie',
+    title: 'Mussoorie',
     image: assets.DomesticTrip_pic21,
     duration: '6 days, 5 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Kumarakom_trip',
+    link: '/domestic/mussoori_trip',
   },  
   {
     id: 21,
-    title: 'nainital',
+    title: 'Nainital',
     image: assets.DomesticTrip_pic22,
-    duration: '6 days, 5 nights',
+    duration: '4 days, 3 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Kumarakom_trip',
+    link: '/domestic/nainital_trip',
   },
   {
     id: 22,
-    title: 'ooty',
+    title: 'Ooty',
     image: assets.DomesticTrip_pic23,
-    duration: '6 days, 5 nights',
+    duration: '4 days, 3 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Kumarakom_trip',
+    link: '/domestic/ooty_trip',
   },
   {
     id: 23,
-    title: 'shimla',
+    title: 'Shimla',
     image: assets.DomesticTrip_pic24,
     duration: '6 days, 5 nights',
     price: '₹23,999',
@@ -221,21 +218,21 @@ const trips = [
   },
   {
     id: 24,
-    title: 'spiti',
+    title: 'Spiti',
     image: assets.DomesticTrip_pic25,
     duration: '6 days, 5 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Kumarakom_trip',
+    link: '/domestic/spiti_trip',
   },  
   {
     id: 25,
-    title: 'udaipur',
+    title: 'Udaipur',
     image: assets.DomesticTrip_pic26,
     duration: '6 days, 5 nights',
     price: '₹23,999',
     originalPrice: '₹28,999',
-    link: '/domestic/Kumarakom_trip',
+    link: '/domestic/udaipur_trip',
   },   
   
   

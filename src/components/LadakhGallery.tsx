@@ -37,7 +37,7 @@ const LadakhGallery = () => {
   return (
     <section className="py-10 bg-gray-50">
       <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
-        Gallery of <span className="text-primary">Past Kashmir Trips</span>
+        Gallery of <span className="text-primary">Past Trips</span>
       </h2>
 
       {/* Responsive Gallery Layout */}

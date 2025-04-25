@@ -4,192 +4,168 @@ import InternationalTripsRecommend from "../../components/InternationalTripsReco
 import LadakhGallery from "../../components/LadakhGallery";
 
 const trips = [
-    {
-      id: 1,
-      day: "Day 1",
-      title: "Arrival in Baku – City Tour",
-      dayName: "Day 1",
-      description: [
-        {
-          time: "Morning",
-          activities: [
-            "Arrival at Baku Heydar Aliyev International Airport",
-            "Meet & greet by the tour representative",
-            "Transfer to the hotel & check-in",
-          ],
-        },
-        {
-          time: "Afternoon",
-          activities: [
-            "Visit Highland Park for panoramic city views",
-            "Explore Flame Towers (Baku’s iconic skyscrapers)",
-            "Walk along Baku Boulevard, the beautiful Caspian Sea promenade",
-            "Visit Little Venice & take a boat ride (optional)",
-          ],
-        },
-        {
-          time: "Evening",
-          activities: [
-            "Explore the Carpet Museum (optional)",
-            "Visit Nizami Street, Baku’s shopping and dining hub",
-            "Return to the hotel & overnight stay",
-          ],
-        },
-      ],
-    },
-    {
-      id: 2,
-      day: "Day 2",
-      title: "Old Baku & Cultural Exploration",
-      dayName: "Day 2",
-      description: [
-        {
-          time: "Morning",
-          activities: [
-            "Breakfast at the hotel",
-            "Visit Maiden Tower (UNESCO World Heritage Site)",
-            "Explore Shirvanshah’s Palace",
-            "Stroll through the charming streets of Old Baku",
-            "Visit the Miniature Book Museum (optional)",
-          ],
-        },
-        {
-          time: "Afternoon",
-          activities: [
-            "Visit Heydar Aliyev Center (iconic futuristic architecture)",
-            "Explore Fountain Square with cafes & shops",
-          ],
-        },
-        {
-          time: "Evening",
-          activities: [
-            "Free time for shopping or optional activities",
-            "Return to the hotel & overnight stay",
-          ],
-        },
-      ],
-    },
-    {
-      id: 3,
-      day: "Day 3",
-      title: "Gabala – Nature & Adventure Day Trip",
-      dayName: "Day 3",
-      description: [
-        {
-          time: "Morning",
-          activities: [
-            "Breakfast at the hotel",
-            "Drive to Gabala (3-4 hours)",
-          ],
-        },
-        {
-          time: "Afternoon",
-          activities: [
-            "Visit Nohur Lake, a serene natural spot",
-            "Explore Tufandag Mountain Resort (cable car ride available)",
-            "Visit Seven Beauties Waterfall (if accessible)",
-            "Optional activities: shooting club, ATV rides",
-          ],
-        },
-        {
-          time: "Evening",
-          activities: [
-            "Return to Baku & overnight stay",
-          ],
-        },
-      ],
-    },
-    {
-      id: 4,
-      day: "Day 4",
-      title: "Gobustan & Mud Volcanoes – Fire & Rock Tour",
-      dayName: "Day 4",
-      description: [
-        {
-          time: "Morning",
-          activities: [
-            "Breakfast at the hotel",
-            "Visit Gobustan National Park (UNESCO site)",
-            "Explore ancient petroglyphs",
-            "Experience the Mud Volcanoes (unique natural phenomenon)",
-          ],
-        },
-        {
-          time: "Afternoon",
-          activities: [
-            "Visit Ateshgah Fire Temple (ancient Zoroastrian site)",
-            "Explore Yanar Dag (Burning Mountain – natural eternal flame)",
-          ],
-        },
-        {
-          time: "Evening",
-          activities: [
-            "Return to Baku & overnight stay",
-          ],
-        },
-      ],
-    },
-    {
-      id: 5,
-      day: "Day 5",
-      title: "Departure",
-      dayName: "Day 5",
-      description: [
-        {
-          time: "Morning",
-          activities: [
-            "Breakfast at the hotel & check-out",
-          ],
-        },
-        {
-          time: "Afternoon",
-          activities: [
-            "Free time for last-minute shopping or relaxation",
-          ],
-        },
-        {
-          time: "Evening",
-          activities: [
-            "Transfer to Baku Heydar Aliyev International Airport for departure",
-          ],
-        },
-      ],
-    },
-  ];
-  
+  {
+    id: 1,
+    day: "Day 1",
+    title: "Arrival in Baku",
+    dayName: "Day 1",
+    description: [
+      {
+        time: "All Day",
+        activities: [
+          "Arrival at Heydar Aliyev International Airport",
+          "Meet and greet by local representative",
+          "Private transfer to hotel and check-in",
+          "Evening at leisure to explore nearby areas or relax",
+          "Dinner at hotel or nearby local restaurant",
+          "Overnight stay in Baku",
+        ],
+      },
+    ],
+  },
+  {
+    id: 2,
+    day: "Day 2",
+    title: "Baku City Tour",
+    dayName: "Day 2",
+    description: [
+      {
+        time: "All Day",
+        activities: [
+          "Breakfast at hotel",
+          "Full-day guided city tour including: Highland Park, Flame Towers, Baku Boulevard, Carpet Museum, Little Venice, Icherisheher (Old City)",
+          "Lunch break (on your own)",
+          "Visit Nizami Street for shopping and leisure walk",
+          "Dinner at hotel/local restaurant",
+          "Overnight stay in Baku",
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    day: "Day 3",
+    title: "Absheron Peninsula Tour",
+    dayName: "Day 3",
+    description: [
+      {
+        time: "All Day",
+        activities: [
+          "Breakfast at hotel",
+          "Sightseeing tour covering: Ateshgah Fire Temple, Yanar Dag (Burning Mountain), Qala Archaeological and Ethnographic Museum",
+          "Optional: Visit to the Caspian Sea beach (seasonal)",
+          "Dinner at hotel/local restaurant",
+          "Overnight stay in Baku",
+        ],
+      },
+    ],
+  },
+  {
+    id: 4,
+    day: "Day 4",
+    title: "Gabala Day Trip",
+    dayName: "Day 4",
+    description: [
+      {
+        time: "All Day",
+        activities: [
+          "Breakfast at hotel",
+          "Full-day excursion to Gabala (approx. 3 hrs drive)",
+          "Visit Nohur Lake, Tufandag Mountain Resort (cable car experience)",
+          "Optional: Gabala Shooting Club",
+          "Return to Baku by evening",
+          "Dinner and overnight stay in Baku",
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    day: "Day 5",
+    title: "Free Day for Leisure or Optional Tours",
+    dayName: "Day 5",
+    description: [
+      {
+        time: "All Day",
+        activities: [
+          "Breakfast at hotel",
+          "Day at leisure for personal exploration, shopping, or optional tours such as:",
+          "Gobustan Mud Volcanoes & Rock Art Site",
+          "Boat ride on the Caspian Sea",
+          "Dinner at hotel/local restaurant",
+          "Overnight stay in Baku",
+        ],
+      },
+    ],
+  },
+  {
+    id: 6,
+    day: "Day 6",
+    title: "Departure",
+    dayName: "Day 6",
+    description: [
+      {
+        time: "All Day",
+        activities: [
+          "Breakfast at hotel",
+          "Check-out and transfer to airport",
+          "Departure with fond memories",
+        ],
+      },
+    ],
+  },
+];
 
 const inclusions = [
   {
     id: 1,
-    category: "Stay",
-    description:
-      "Accommodation in Double / Triple Sharing rooms in Hotels / Camps.",
+    category: "Accommodation",
+    description: "5 Nights accommodation in Baku with breakfast",
   },
   {
     id: 2,
-    category: "Meal",
-    description:
-      "A total of 12 meals: Day 1 (D), Day 2 (B+D), Day 3 (B+D), Day 4 (B+D), Day 5 (B+D), Day 6 (B+D), Day 7 (B).",
+    category: "Meals",
+    description: "Daily dinner at hotel/local restaurant",
   },
   {
     id: 3,
-    category: "Other Inclusions",
-    description:
-      "Bike rent with fuel for 5 days from Day 2 to Day 6 (For Biking option).",
+    category: "Transport",
+    description: "Private cab for all airport transfers and sightseeing",
+  },
+  {
+    id: 4,
+    category: "Guided Tours",
+    description: "English-speaking guide for city and regional tours",
+  },
+  {
+    id: 5,
+    category: "Tickets & Taxes",
+    description: "Entry tickets to main attractions and all applicable taxes",
+  },
+  {
+    id: 6,
+    category: "Amenities",
+    description: "Bottle of water during tours",
   },
 ];
 
 const exclusions = [
-  { id: 1, description: "Airfare and travel insurance." },
+  { id: 1, description: "Airfare (International/domestic)" },
+  { id: 2, description: "Visa fees and processing" },
+  { id: 3, description: "Lunches" },
+  { id: 4, description: "Personal expenses like laundry, tips, phone calls" },
+  { id: 5, description: "Travel insurance" },
   {
-    id: 2,
-    description: "Any expenses not specifically mentioned under inclusions.",
+    id: 6,
+    description:
+      "Optional tours and activities not mentioned in the inclusions",
   },
   {
-    id: 3,
-    description: "Personal expenses like shopping, tips, and extra meals.",
+    id: 7,
+    description: "Anything not specifically mentioned in the inclusions",
   },
 ];
+
 
 const galleryImages = [
   "https://himalyantrips.com/wp-content/uploads/2024/02/winter-kashmir.jpeg",
@@ -267,14 +243,14 @@ const AzerbaizanBakuTour = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
         <section className="py-10 bg-gray-100">
           <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
-            Explore <span className="text-blue-500">4 Nights 5 Days Azerbaijan (Baku) Tour</span>
+            Explore <span className="text-blue-500">6Nights 5 Days Azerbaijan (Baku) Tour</span>
           </h2>
           {/* Flex container to stack Itinerary and Inclusions sections vertically */}
           <div className="flex flex-col space-y-8">
             {/* Itinerary Section */}
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-semibold mb-6 text-gray-700">
-                Itinerary
+              Azerbaijan (Baku) Itinerary 6 Days / 5 Nights
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {trips.map((trip) => (

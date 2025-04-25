@@ -15,26 +15,26 @@ const trips = [
         activities: [
           "Arrival at Srinagar Airport",
           "Transfer to houseboat on Dal Lake",
-          "Check-in and lunch",
-        ],
+          "Check-in and lunch"
+        ]
       },
       {
         time: "Afternoon",
         activities: [
           "Shikara ride on Dal Lake",
           "Visit floating markets",
-          "Explore vegetable gardens",
-        ],
+          "Explore vegetable gardens"
+        ]
       },
       {
         time: "Evening",
         activities: [
           "Sunset viewing from houseboat",
           "Dinner on houseboat",
-          "Overnight stay in houseboat",
-        ],
-      },
-    ],
+          "Overnight stay in houseboat"
+        ]
+      }
+    ]
   },
   {
     id: 2,
@@ -45,26 +45,26 @@ const trips = [
       {
         time: "Morning",
         activities: [
-          "Tour Mughal Gardens: Nishat Bagh, Shalimar Bagh, Chashme Shahi",
-        ],
+          "Tour Mughal Gardens: Nishat Bagh, Shalimar Bagh, Chashme Shahi"
+        ]
       },
       {
         time: "Afternoon",
         activities: [
           "Visit Hazratbal Shrine",
           "Local Kashmiri lunch",
-          "Explore Lal Chowk market",
-        ],
+          "Explore Lal Chowk market"
+        ]
       },
       {
         time: "Evening",
         activities: [
           "Visit Shankaracharya Temple",
           "Shopping at local markets",
-          "Dinner at traditional Wazwan restaurant",
-        ],
-      },
-    ],
+          "Dinner at traditional Wazwan restaurant"
+        ]
+      }
+    ]
   },
   {
     id: 3,
@@ -77,25 +77,25 @@ const trips = [
         activities: [
           "Drive to Pahalgam (approx. 3 hours)",
           "Visit saffron fields en route (seasonal)",
-          "Check-in at hotel",
-        ],
+          "Check-in at hotel"
+        ]
       },
       {
         time: "Afternoon",
         activities: [
           "Visit Betaab Valley",
-          "Explore Chandanwari and Aru Valley",
-        ],
+          "Explore Chandanwari and Aru Valley"
+        ]
       },
       {
         time: "Evening",
         activities: [
           "Leisure walk along Lidder River",
           "Dinner at hotel",
-          "Overnight in Pahalgam",
-        ],
-      },
-    ],
+          "Overnight in Pahalgam"
+        ]
+      }
+    ]
   },
   {
     id: 4,
@@ -107,26 +107,26 @@ const trips = [
         time: "Morning",
         activities: [
           "Drive to Gulmarg (approx. 4 hours)",
-          "Check-in at hotel",
-        ],
+          "Check-in at hotel"
+        ]
       },
       {
         time: "Afternoon",
         activities: [
           "Gondola ride to Kongdoori",
           "Visit Khilanmarg",
-          "Enjoy snow activities (seasonal)",
-        ],
+          "Enjoy snow activities (seasonal)"
+        ]
       },
       {
         time: "Evening",
         activities: [
           "Visit Gulmarg Golf Course",
           "Dinner at hotel",
-          "Overnight in Gulmarg",
-        ],
-      },
-    ],
+          "Overnight in Gulmarg"
+        ]
+      }
+    ]
   },
   {
     id: 5,
@@ -138,26 +138,26 @@ const trips = [
         time: "Morning",
         activities: [
           "Drive to Sonmarg (approx. 4 hours)",
-          "Check-in at hotel",
-        ],
+          "Check-in at hotel"
+        ]
       },
       {
         time: "Afternoon",
         activities: [
           "Visit Thajiwas Glacier",
           "Enjoy horse riding",
-          "Photography at Zero Point",
-        ],
+          "Photography at Zero Point"
+        ]
       },
       {
         time: "Evening",
         activities: [
           "Leisure time near Sindh River",
           "Dinner at hotel",
-          "Overnight in Sonmarg",
-        ],
-      },
-    ],
+          "Overnight in Sonmarg"
+        ]
+      }
+    ]
   },
   {
     id: 6,
@@ -170,52 +170,55 @@ const trips = [
         activities: [
           "Drive back to Srinagar",
           "Visit Pari Mahal",
-          "Local market shopping",
-        ],
+          "Local market shopping"
+        ]
       },
       {
         time: "Afternoon",
         activities: [
-          "Departure from Srinagar Airport",
-        ],
-      },
-    ],
-  },
+          "Departure from Srinagar Airport"
+        ]
+      }
+    ]
+  }
 ];
-
 
 const inclusions = [
   {
     id: 1,
     category: "Stay",
-    description:
-      "Accommodation in Double / Triple Sharing rooms in Hotels / Camps.",
+    description: "Accommodation in well-rated hotels / houseboats (double/triple sharing)"
   },
   {
     id: 2,
     category: "Meal",
-    description:
-      "A total of 12 meals: Day 1 (D), Day 2 (B+D), Day 3 (B+D), Day 4 (B+D), Day 5 (B+D), Day 6 (B+D), Day 7 (B).",
+    description: "Daily breakfast and dinner as per itinerary (12 meals total)"
   },
   {
     id: 3,
-    category: "Other Inclusions",
-    description:
-      "Bike rent with fuel for 5 days from Day 2 to Day 6 (For Biking option).",
+    category: "Transport",
+    description: "All transfers and sightseeing by private AC cab (sedan/SUV)"
   },
+  {
+    id: 4,
+    category: "Activities",
+    description: "Shikara ride on Dal Lake and Gondola ride (Phase 1) in Gulmarg"
+  },
+  {
+    id: 5,
+    category: "Services",
+    description: "Driver allowance, tolls, parking, fuel charges, and 24/7 assistance"
+  }
 ];
 
 const exclusions = [
-  { id: 1, description: "Airfare and travel insurance." },
-  {
-    id: 2,
-    description: "Any expenses not specifically mentioned under inclusions.",
-  },
-  {
-    id: 3,
-    description: "Personal expenses like shopping, tips, and extra meals.",
-  },
+  { id: 1, description: "Airfare / Train fare and travel insurance" },
+  { id: 2, description: "Entry fees to monuments and optional activities (horse riding, rafting, skiing)" },
+  { id: 3, description: "Personal expenses (laundry, tips, phone calls)" },
+  { id: 4, description: "Local cab charges in Sonmarg, Gulmarg, and Pahalgam" },
+  { id: 5, description: "Anything not specifically mentioned under inclusions" }
 ];
+
 
 const galleryImages = [
   "https://himalyantrips.com/wp-content/uploads/2024/02/winter-kashmir.jpeg",

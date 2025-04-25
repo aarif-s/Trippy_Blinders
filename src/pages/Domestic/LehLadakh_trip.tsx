@@ -7,155 +7,156 @@
   {
     id: 1,
     day: "Day 1",
-    title: "Arrival in Leh & Acclimatization",
-    dayName: "Monday",
+    title: "Arrival in Leh",
+    dayName: "Day 1",
     description: [
       {
-        time: "Morning",
+        time: "",
         activities: [
-          "Arrive at Kushok Bakula Rimpochee Airport in Leh",
-          "Transfer to hotel and rest",
-        ],
-      },
-      {
-        time: "Afternoon",
-        activities: [
-          "Enjoy a light lunch at a local café",
-          "Acclimatization walk around Leh market",
-        ],
-      },
-      {
-        time: "Evening",
-        activities: [
-          "Visit local cafés and relax",
-          "Early dinner to prepare for the days ahead",
-        ],
-      },
-    ],
+          "Arrival at Leh Airport and transfer to hotel",
+          "Day reserved for acclimatization",
+          "Evening visit to Leh Market and Shanti Stupa (time and energy permitting)",
+          "Overnight stay in Leh"
+        ]
+      }
+    ]
   },
   {
     id: 2,
     day: "Day 2",
-    title: "Local Sightseeing in Leh",
-    dayName: "Tuesday",
+    title: "Leh Local Sightseeing",
+    dayName: "Day 2",
     description: [
       {
-        time: "Morning",
+        time: "",
         activities: [
-          "Visit Shanti Stupa for panoramic views",
-          "Explore the historic Leh Palace",
-        ],
-      },
-      {
-        time: "Afternoon",
-        activities: [
-          "Lunch at a traditional Ladakhi restaurant",
-          "Stroll through local markets and visit temples",
-        ],
-      },
-      {
-        time: "Evening",
-        activities: [
-          "Watch the sunset from Thiksey Monastery",
-          "Dinner in Leh and leisure time",
-        ],
-      },
-    ],
+          "Visit Magnetic Hill, Gurudwara Pathar Sahib, Hall of Fame, and Sangam (Zanskar-Indus confluence)",
+          "Return to Leh and overnight stay"
+        ]
+      }
+    ]
   },
   {
     id: 3,
     day: "Day 3",
-    title: "Excursion to Nubra Valley",
-    dayName: "Wednesday",
+    title: "Leh to Nubra Valley via Khardung La",
+    dayName: "Day 3",
     description: [
       {
-        time: "Morning",
+        time: "",
         activities: [
-          "Drive to Nubra Valley via the famous Khardung La Pass",
-          "Stop for scenic photography along the way",
-        ],
-      },
-      {
-        time: "Afternoon",
-        activities: [
-          "Arrive in Nubra Valley and check into your camp/hotel",
-          "Visit Diskit Monastery and admire the giant Buddha statue",
-        ],
-      },
-      {
-        time: "Evening",
-        activities: [
-          "Experience a camel ride on the sand dunes of Hunder",
-          "Dinner under the stars at the camp",
-        ],
-      },
-    ],
+          "Drive over Khardung La Pass (18,380 ft)",
+          "Arrive in Nubra Valley and check-in",
+          "Visit Diskit Monastery and camel ride on Hunder sand dunes",
+          "Overnight stay in Nubra Valley"
+        ]
+      }
+    ]
   },
   {
     id: 4,
     day: "Day 4",
-    title: "Pangong Lake & Departure",
-    dayName: "Thursday",
+    title: "Nubra to Pangong Lake via Shyok Route",
+    dayName: "Day 4",
     description: [
       {
-        time: "Morning",
+        time: "",
         activities: [
-          "Drive to the mesmerizing Pangong Lake",
-          "Spend time enjoying the scenic views of the lake",
-        ],
-      },
-      {
-        time: "Afternoon",
-        activities: [
-          "Have lunch near Pangong Lake",
-          "Return drive back to Leh",
-        ],
-      },
-      {
-        time: "Evening",
-        activities: [
-          "Transfer to the airport for your departure",
-          "Conclude your Ladakh adventure",
-        ],
-      },
-    ],
+          "Drive to Pangong Lake via scenic Shyok Valley",
+          "Check-in at camp near Pangong Lake",
+          "Witness sunset over the blue waters",
+          "Overnight stay at Pangong Lake"
+        ]
+      }
+    ]
   },
+  {
+    id: 5,
+    day: "Day 5",
+    title: "Pangong Lake to Leh via Chang La",
+    dayName: "Day 5",
+    description: [
+      {
+        time: "",
+        activities: [
+          "Early morning sunrise at Pangong Lake",
+          "Drive back to Leh via Chang La Pass (17,590 ft)",
+          "En route visit Thiksey Monastery and Shey Palace",
+          "Overnight stay in Leh"
+        ]
+      }
+    ]
+  },
+  {
+    id: 6,
+    day: "Day 6",
+    title: "Leisure Day in Leh",
+    dayName: "Day 6",
+    description: [
+      {
+        time: "",
+        activities: [
+          "Free day for optional rafting in Zanskar or local shopping",
+          "Explore cafes, bazaars, and interact with locals",
+          "Overnight stay in Leh"
+        ]
+      }
+    ]
+  },
+  {
+    id: 7,
+    day: "Day 7",
+    title: "Departure from Leh",
+    dayName: "Day 7",
+    description: [
+      {
+        time: "",
+        activities: [
+          "Breakfast at hotel and checkout",
+          "Transfer to Leh Airport for onward journey"
+        ]
+      }
+    ]
+  }
 ];
 
- 
- const inclusions = [
-   {
-     id: 1,
-     category: "Stay",
-     description:
-       "Accommodation in Double / Triple Sharing rooms in Hotels / Camps.",
-   },
-   {
-     id: 2,
-     category: "Meal",
-     description:
-       "A total of 12 meals: Day 1 (D), Day 2 (B+D), Day 3 (B+D), Day 4 (B+D), Day 5 (B+D), Day 6 (B+D), Day 7 (B).",
-   },
-   {
-     id: 3,
-     category: "Other Inclusions",
-     description:
-       "Bike rent with fuel for 5 days from Day 2 to Day 6 (For Biking option).",
-   },
- ];
- 
- const exclusions = [
-   { id: 1, description: "Airfare and travel insurance." },
-   {
-     id: 2,
-     description: "Any expenses not specifically mentioned under inclusions.",
-   },
-   {
-     id: 3,
-     description: "Personal expenses like shopping, tips, and extra meals.",
-   },
- ];
- 
+const inclusions = [
+  {
+    id: 1,
+    category: "Stay",
+    description: "Accommodation in well-rated hotels and camps (double sharing basis)"
+  },
+  {
+    id: 2,
+    category: "Meal",
+    description: "Daily breakfast and dinner"
+  },
+  {
+    id: 3,
+    category: "Transport",
+    description: "Airport transfers and all sightseeing by private AC cab"
+  },
+  {
+    id: 4,
+    category: "Permits & Fees",
+    description: "Inner Line Permits for Nubra and Pangong, environmental and wildlife fees"
+  },
+  {
+    id: 5,
+    category: "Services",
+    description: "Oxygen cylinder in vehicle (on request), experienced local driver-cum-guide, hotel taxes"
+  }
+];
+
+const exclusions = [
+  { id: 1, description: "Airfare or train fare to and from Leh" },
+  { id: 2, description: "Lunch, snacks, and beverages" },
+  { id: 3, description: "Personal expenses such as laundry, phone calls, and tips" },
+  { id: 4, description: "Entry fees to monasteries and museums" },
+  { id: 5, description: "Optional adventure activities like camel ride, rafting, ATV rides" },
+  { id: 6, description: "Travel insurance and anything not mentioned in inclusions" }
+];
+
  const galleryImages = [
    "https://himalyantrips.com/wp-content/uploads/2024/02/winter-kashmir.jpeg",
    "https://bl-i.thgim.com/public/incoming/2rfvdc/article68908750.ece/alternates/LANDSCAPE_1200/Kashmir%20Snow%20Tourism%202024%20-%20another.jpg",
