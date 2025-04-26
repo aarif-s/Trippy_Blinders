@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Bars3Icon, XMarkIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import { FaInstagram, FaFacebookF, FaGoogle } from "react-icons/fa";
 import SearchBar from "./SearchBar";
+import assets from "../assets/assets";  
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = () => {
           <Link to="/" className="flex-shrink-0 flex items-center">
             <img
               className="h-10 w-auto sm:h-12"
-              src="https://trippyblinders.com/wp-content/uploads/2025/02/logo.png"
+              src= {assets.Logo}
               alt="Capture A Trip"
             />
           </Link>
